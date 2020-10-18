@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>acme-flex-box</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+
+        <section class="header">
+                <ul class="nav">
+                    <li>Acme Layout</li>
+                    <li>Users</li>
+                    <li>Departments</li>
+                    <li>Contact</li>
+                </ul>
+        </section>
+
+        <h1 id="title">Users</h1>
+        <section class="form">
+            <form>
+                <h1>Create A User</h1>
+                <div class="field">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Jane">
+                </div>
+                <div class="field">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Doe">
+                </div>
+                <div class="field">
+                    <label for="department">Department</label>
+                    <select id="department" name="department" placeholder="None">
+                        <option value="none">--None--</option>
+                        <option value="other">--Other--</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button type="reset" id="clear">Clear</button>
+                    <button type="submit" id="save">Save</button>
+                </div>
+
+            </form>
+        </section>
+
+
+
+
+
+
+    </body>
+</html>
