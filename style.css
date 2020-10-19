@@ -29,6 +29,13 @@ h1{
     align-items: center;
 }
 
+.nav li:hover{
+        color: red;
+        background-color: black;
+        transition: all 0.2s linear;
+        cursor: pointer;
+}
+
 .nav li:first-child{
     font-size: 2rem;
     margin-right: 5rem;
@@ -77,6 +84,12 @@ label{
 .buttons{
     display: flex;
     justify-content: center;
+}
+#save:hover,#clear:hover{
+        color: red;
+        background-color: black;
+        transition: all .2s linear;
+        cursor: pointer;
 }
 button{
     border-radius: 0;
